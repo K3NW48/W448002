@@ -13,4 +13,4 @@ set smartcase
 set autoindent
 set history=4300
 set smarttab
-let checky="My vimrc LOADED!! ^,^"
+echo "My vimrc LOADED!! ^,^"
