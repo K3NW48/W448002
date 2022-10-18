@@ -13,4 +13,3 @@ set smartcase
 set autoindent
 set history=4300
 set smarttab
-echo "My vimrc LOADED!! ^,^"
