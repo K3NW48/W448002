@@ -32,7 +32,7 @@ set smarttab
 set tabspace=2
 EOF
 
-cp $COME_BACK_HERE/.vimrc ~/
+cp $COME_BACK_HERE/.vimrc ~
 
 git clone https://github.com/ycm-core/YouCompleteMe.git
 cd YouCompleteMe
