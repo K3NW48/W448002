@@ -6,7 +6,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git
 cd Vundle.vim
 ~/.vim/bundle/Vundle.vim
 cd ..
-cat << EOF > .vimrc
+cat << EOF > .vimrc 
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
@@ -44,9 +44,9 @@ filetype plugin indent on    " required
 "
 " Brief help
 " :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
+" :PluginInstall    - installs plugins; append \`!\` to update or just :PluginUpdate
+" :PluginSearch foo - searches for foo; append \`!\` to refresh local cache
+" :PluginClean      - confirms removal of unused plugins; append \`!\` to auto-approve removal
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line  
@@ -64,7 +64,7 @@ set ignorecase
 set smartcase
 set autoindent
 set history=4300
-set smarttab
+set smarttab 
 EOF
 
 cp .vimrc $HOME
