@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
+apt install -yf curl
+
 git clone https://github.com/VundleVim/Vundle.vim.git
+
 ~/.vim/bundle/Vundle.vim
 
 cat << EOF > .vimrc
@@ -47,7 +50,24 @@ filetype plugin indent on    " required
 "
 " see :h vundle for more details or wiki for FAQ
 " Put your non-Plugin stuff after this line  
+set mouse=a
+set tabstop=2
+set background=dark
+set spell
+set title
+set cursorline
+set number
+set ruler
+syntax enable
+set hlsearch
+set ignorecase
+set smartcase
+set autoindent
+set history=4300
+set smarttab
 EOF
+
+cp .vimrc $HOME
 vim +PluginInstall +qall
 git clone https://github.com/ycm-core/YouCompleteMe.git
 apt install -yf build-essential cmake vim-nox python3-dev
