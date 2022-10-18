@@ -8,6 +8,7 @@ cd ~/.vim
 
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+cd ~/.vim/autoload
 
 cat << EOF > .vimrc 
 call plug#begin()
@@ -28,6 +29,7 @@ set ignorecase
 set smartcase
 set history=4300
 set smarttab
+set tabspace=2
 EOF
 
 cp $COME_BACK_HERE/.vimrc ~/
@@ -36,7 +38,7 @@ git clone https://github.com/ycm-core/YouCompleteMe.git
 cd YouCompleteMe
 apt install -yf build-essential cmake vim-nox python3-dev
 apt install -yf mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm
-cd ~/.vim/bundle/YouCompleteMe
+cd ~/.vim/autoload/YouCompleteMe
 
 python3 install.py --all
 
