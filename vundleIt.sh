@@ -3,7 +3,7 @@
 apt install -yf curl
 
 git clone https://github.com/VundleVim/Vundle.vim.git
-cd Vundle.Vim
+cd Vundle.vim
 ~/.vim/bundle/Vundle.vim
 cd ..
 cat << EOF > .vimrc
