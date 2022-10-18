@@ -1,6 +1,5 @@
 set mouse=a
-set tabstop=2
-set background=dark
+colorscheme industry
 set spell
 set title
 set cursorline
