@@ -10,7 +10,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cd ~/.vim/autoload
 
-cat << EOF > .vimrc 
+cat << EOF > ~/.vimrc 
 call plug#begin()
 
 Plug 'ycm-core/YouCompleteMe'
