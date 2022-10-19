@@ -2,7 +2,7 @@ call plug#begin()
 
 Plug 'https://github.com/prettier/vim-prettier.git'
 Plug 'rdnetto/YCM-Generator', { 'branch': 'stable' }
-Plug 'SirVir/ultisnips' | Plug 'honza/vim-snippets'
+Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'preservim/nerdtree'
 
 
