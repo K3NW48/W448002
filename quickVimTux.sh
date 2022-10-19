@@ -2,8 +2,10 @@
 
 apt install -yf vim tmux
 
-cp .vimrc $HOME
+cp .vimrc ~/.vimrc
+cp .tmux.conf ~/.tmux.conf
 
 echo ' '
-echo 'Your vim config is only for this user currently. cp .vimrc to /etc/vim//vimrc.local for Ubuntu/Debian systems and /etc/vimrc for CentOS/RHEL7'
+echo '..Aanii gaye Boozhoo Waabooz...  =,='
 echo ' '
+

@@ -5,7 +5,6 @@ apt install -yf curl vim tmux
 COME_BACK_HERE=${PWD}
 
 cd ~/.vim
-
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 cd ~/.vim/autoload
