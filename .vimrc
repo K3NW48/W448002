@@ -1,5 +1,5 @@
 set mouse=a
-colorscheme industry
+colorscheme murphy
 set spell
 set title
 set cursorline
